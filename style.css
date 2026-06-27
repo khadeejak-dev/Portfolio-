@@ -220,4 +220,53 @@ section p{
   section{
     padding:70px 25px;
   }
+}#contact {
+  padding: 80px 40px;
+  background: #f7f7f7;
+}
+
+#contact h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #0b1230;
+}
+
+.contact-form {
+  max-width: 700px;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 25px 0 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #d8e3f5;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.contact-form textarea {
+  height: 220px;
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 25px;
+  padding: 18px 40px;
+  border: none;
+  background: #173b74;
+  color: white;
+  font-size: 22px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #0f2d59;
 }
