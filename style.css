@@ -269,4 +269,28 @@ section p{
 
 .contact-form button:hover {
   background: #0f2d59;
+}#services,
+#experience,
+#education {
+  padding: 80px 60px;
+  background: white;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+#services h2,
+#experience h2,
+#education h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #b68a5a;
+}
+
+#services p,
+#experience p,
+#education p {
+  font-size: 20px;
+  line-height: 1.9;
+  margin-bottom: 20px;
 }
