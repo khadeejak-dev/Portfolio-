@@ -325,6 +325,120 @@ section p{
     color: #B58D59;            /* Your beautiful brand color */
     font-weight: bold;
     margin-bottom: 20px;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f2ef;
+  font-family: Georgia, serif;
+  color: #222;
+}
+
+/* Header */
+header {
+  background: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  font-size: 70px;
+  color: #b8895b;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Main sections */
+section {
+  background: white;
+  width: 85%;
+  margin: 50px auto;
+  padding: 70px;
+  border-radius: 30px;
+}
+
+section h2 {
+  font-size: 65px;
+  color: #b8895b;
+  margin-bottom: 30px;
+}
+
+section p {
+  font-size: 28px;
+  line-height: 2;
+}
+
+/* Contact form */
+form {
+  margin-top: 30px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button {
+  background: #1e3557;
+  color: white;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 12px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 55px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 12px 0;
+  }
+
+  section {
+    width: 90%;
+    padding: 40px;
+  }
+
+  section h2 {
+    font-size: 45px;
+  }
+
+  section p {
+    font-size: 20px;
+  }
 }
 
 
