@@ -537,43 +537,4 @@ margin-top:10px;
 width:60px;
 height:1px;
 background:#d4a373;
-}/* Elegant eye-catching headings */
-section h2{
-font-family:'Playfair Display', serif;
-font-size:58px;
-font-weight:700;
-color:#5c3b88;
-letter-spacing:1px;
-position:relative;
-margin-bottom:25px;
-line-height:1.2;
 }
-
-/* Gold underline decoration */
-section h2::after{
-content:"";
-display:block;
-width:90px;
-height:3px;
-background:linear-gradient(to right,#d4a373,#f2d3a3);
-margin-top:12px;
-border-radius:20px;
-}
-
-/* Hero main heading */
-.hero-text h2{
-font-family:'Playfair Display', serif;
-font-size:78px;
-font-weight:700;
-color:#5c3b88;
-line-height:1.1;
-text-shadow:2px 2px 8px rgba(92,59,136,0.08);
-}
-
-/* Soft glow on hover */
-section h2:hover{
-color:#7a4bb0;
-transition:0.3s ease;
-}
-
-
