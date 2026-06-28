@@ -439,6 +439,30 @@ button:hover {
   section p {
     font-size: 20px;
   }
+}nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px; /* adds space between links */
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #b8895c;
 }
 
 
