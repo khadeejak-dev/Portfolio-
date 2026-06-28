@@ -311,5 +311,20 @@ section p{
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 20px;
+}/* The white card container matching your Services page layout */
+.card-container {
+    background-color: #ffffff; 
+    border-radius: 24px;       /* Smooth rounded corners */
+    padding: 40px 30px;        /* Spacing inside the card */
+    margin: 20px auto;         /* Centers it on the screen */
+    max-width: 90%;            
 }
+
+/* The exact brown color for your headers */
+.brown-heading {
+    color: #B58D59;            /* Your beautiful brand color */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 
