@@ -650,8 +650,10 @@ background:#d4a373;
     .journey-quote {
         font-size: 1rem;
     
-}.
-}.video-card,
+}
+}
+
+.video-card,
 .audio-card {
     width: 100%;
     max-width: 800px;
