@@ -649,7 +649,8 @@ background:#d4a373;
     .journey-video p,
     .journey-quote {
         font-size: 1rem;
-    }
+    
+}.
 }.video-card,
 .audio-card {
     width: 100%;
@@ -663,18 +664,17 @@ background:#d4a373;
 .video-card video,
 .audio-card audio {
     width: 100%;
-    border-radius: 15px;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
 }
 
 .video-card h2,
-.audio-card h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
+.audio-card h2,
 .video-card p,
 .audio-card p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
