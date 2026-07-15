@@ -650,4 +650,31 @@ background:#d4a373;
     .journey-quote {
         font-size: 1rem;
     }
+}.video-card,
+.audio-card {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.video-card video,
+.audio-card audio {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.video-card h2,
+.audio-card h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.video-card p,
+.audio-card p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
